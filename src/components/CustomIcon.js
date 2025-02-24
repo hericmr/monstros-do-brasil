@@ -16,7 +16,7 @@ const createIcon = (url, color) =>
   });
 
 // Criando ícones com cores personalizadas
-export const blueIcon = createIcon("https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png", "blue");
+export const blueIcon = createIcon("public/fotos/Captura_de_imagem_20250224_124603-removebg-preview.png", "blue");
 export const greenIcon = createIcon("https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png", "green");
 export const yellowIcon = createIcon("https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png", "yellow");
 export const redIcon = createIcon("https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png", "red");

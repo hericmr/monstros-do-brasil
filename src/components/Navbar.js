@@ -19,7 +19,7 @@ const Navbar = ({ onTitleClick = () => {} }) => {
               window.location.href = '/cartografiasocial?panel=sobre-o-site';
             }}
           >
-            Cartografia Social de Santos
+            Atlas do Invisível - criaturas fantásticas do Brasil e onde habitam
           </h1>
         </div>
 

@@ -6,7 +6,7 @@ import PainelInformacoes from "./components/PainelInformacoes";
 
 // Função para buscar os dados da planilha do Google Sheets
 const fetchDataPoints = async () => {
-  const spreadsheetId = '10h3GnQFWcHa8gZL1YfkJyMjxV3j24z1H-RtqU7TReYY';
+  const spreadsheetId = '1XE5EE3zcUtA5ALhmevSfluBc-y8Q-JYsU0QWb3t5QKE';
   const parser = new PublicGoogleSheetsParser(spreadsheetId);
   return await parser.parse();
 };
