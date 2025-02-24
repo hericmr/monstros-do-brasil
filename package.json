@@ -34,7 +34,7 @@
     "test": "react-app-rewired test",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://hericmr.github.io/cartografiasocial",
+  "homepage": "https://hericmr.github.io/monstros-do-brasil",
   "eslintConfig": {
     "extends": [
       "react-app",
