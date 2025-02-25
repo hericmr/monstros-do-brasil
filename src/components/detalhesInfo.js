@@ -20,7 +20,8 @@ const detalhesIntro = {
         <div class="p-4 bg-gray-50 rounded-lg">
           <ul class="list-none space-y-2 text-sm">
             <li>✓ Georreferenciamento histórico</li>
-            <li>✓ Análise etnoliterária</li>
+            onde o ser surgiu, apareceu, quando, quem fala sobre ele
+            
             <li>✓ Documentação multimídia</li>
           </ul>
         </div>
