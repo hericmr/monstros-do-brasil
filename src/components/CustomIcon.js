@@ -9,8 +9,8 @@ const createIcon = (url, color, animate = false) =>
         <img src="${url}" class="w-[80px] h-[120px] drop-shadow-md">
       </div>
     `,
-    iconSize: [80, 120],
-    iconAnchor: [10, 120],
+    iconSize: [120, 180],
+    iconAnchor: [40, 80],
     popupAnchor: [1, -14],
   });
 
