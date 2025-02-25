@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cartografiasocial/static/css/main.4aa72bf9.css",
-    "main.js": "/cartografiasocial/static/js/main.0e4b3ee8.js",
-    "static/js/488.507c0173.chunk.js": "/cartografiasocial/static/js/488.507c0173.chunk.js",
-    "index.html": "/cartografiasocial/index.html",
-    "main.4aa72bf9.css.map": "/cartografiasocial/static/css/main.4aa72bf9.css.map",
-    "main.0e4b3ee8.js.map": "/cartografiasocial/static/js/main.0e4b3ee8.js.map",
-    "488.507c0173.chunk.js.map": "/cartografiasocial/static/js/488.507c0173.chunk.js.map"
+    "main.css": "/monstros-do-brasil/static/css/main.8c68aeeb.css",
+    "main.js": "/monstros-do-brasil/static/js/main.023527d9.js",
+    "static/js/488.507c0173.chunk.js": "/monstros-do-brasil/static/js/488.507c0173.chunk.js",
+    "index.html": "/monstros-do-brasil/index.html",
+    "main.8c68aeeb.css.map": "/monstros-do-brasil/static/css/main.8c68aeeb.css.map",
+    "main.023527d9.js.map": "/monstros-do-brasil/static/js/main.023527d9.js.map",
+    "488.507c0173.chunk.js.map": "/monstros-do-brasil/static/js/488.507c0173.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aa72bf9.css",
-    "static/js/main.0e4b3ee8.js"
+    "static/css/main.8c68aeeb.css",
+    "static/js/main.023527d9.js"
   ]
 }
