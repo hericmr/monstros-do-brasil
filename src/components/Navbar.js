@@ -38,7 +38,7 @@ const Navbar = ({ onTitleClick }) => {
             className="h-8 sm:h-10 w-auto object-contain"
           />
           <p className="text-xs tracking-wide font-serif mt-1">
-            Serviço Social
+            Artes das trevas
           </p>
         </a>
       </div>
