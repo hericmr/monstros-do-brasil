@@ -16,7 +16,7 @@ const Navbar = ({ onTitleClick = () => {} }) => {
           <h1
             className="text-base sm:text-lg md:text-2xl font-bold tracking-wide cursor-pointer"
             onClick={() => {
-              window.location.href = '/cartografiasocial?panel=sobre-o-site';
+              window.location.href = '/monstros-do-brasil?panel=sobre-o-site';
             }}
           >
             Atlas do Invisível - criaturas fantásticas do Brasil e onde habitam
@@ -27,7 +27,7 @@ const Navbar = ({ onTitleClick = () => {} }) => {
         <a href="https://www.unifesp.br/" target="_blank" rel="noopener noreferrer">
           <div className="flex flex-col items-center text-center">
             <img
-              src="/cartografiasocial/logo.png"
+              src="/monstros-do-brasil/logo.png"
               alt="Logo da Unifesp"
               className="h-8 sm:h-10 w-auto object-contain"
               aria-label="Logo da Unifesp"
