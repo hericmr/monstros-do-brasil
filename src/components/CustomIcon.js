@@ -16,7 +16,7 @@ const createIcon = (url, color, animate = false) =>
 
 // Criando ícones com animação para o monstro e estáticos para os outros
 export const blueIcon = createIcon(
-  "https://github.com/hericmr/monstros-do-brasil/blob/main/public/fotos/Captura_de_imagem_20250224_124603-removebg-preview.png?raw=true", 
+  "https://github.com/hericmr/monstros-do-brasil/blob/maihttps://github.com/hericmr/monstros-do-brasil/blob/main/public/fotos/ipupiara.png?raw=true", 
   "blue", 
   true // Ativando animação apenas para este ícone
 );

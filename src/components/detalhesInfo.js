@@ -9,7 +9,7 @@ const detalhesIntro = {
           <div class="border border-blue-200 p-4 rounded-lg bg-blue-100 max-w-md mx-auto">
             <center><ul class="list-none space-y-2">
               <li class="flex items-center">
-                <img src="/montros-do-brasil/fotos/ipupiara.png" alt="Marcador Azul" class="w-10 h-16 mr-2" />
+                <img src="https://github.com/hericmr/monstros-do-brasil/blob/main/public/fotos/ipupiara.png?raw=true" alt="Marcador Azul" class="w-10 h-16 mr-2" />
                 <span><strong class="text-blue-700">Ipupiara:</strong> Monstro de São Vicente.</span>
               </li>
             </ul></center>
