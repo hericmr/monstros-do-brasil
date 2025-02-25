@@ -19,7 +19,7 @@ const Navbar = ({ onTitleClick = () => {} }) => {
               window.location.href = '/monstros-do-brasil?panel=sobre-o-site';
             }}
           >
-            Atlas do Invisível - criaturas fantásticas do Brasil e onde habitam
+            Atlas do Invisível - criaturas fantásticas do Brasil
           </h1>
         </div>
 
