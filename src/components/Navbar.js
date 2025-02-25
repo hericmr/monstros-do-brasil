@@ -20,7 +20,7 @@ const Navbar = ({ onTitleClick }) => {
               Atlas do Invisível 
             </h1>
             <h2 className="text-sm font-light tracking-wide">
-              Criaturas fantásticas do Brasil
+              Criaturas fantásticas do Brasil e onde habitam
             </h2>
           </div>
         </div>
