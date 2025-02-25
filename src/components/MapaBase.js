@@ -36,17 +36,18 @@ const MapaBase = ({ children }) => {
 
         {/* Exibir o GeoJSON quando os dados estiverem carregados */}
         {ufData && (
-          <GeoJSON
-            data={ufData}
-            style={{
-              color: "#000000", // 
-              weight: 1, // Borda fina
-              opacity: 0.5, // Opacidade da borda
-              fillColor: "rgba(61, 120, 101, 0.2)", // Preenchimento suave e transparente
-              fillOpacity: 0.4, // Opacidade do preenchimento
-            }}
-          />
-        )}
+  <GeoJSON
+    data={ufData}
+    style={{
+      color: "#000000", // Cor da borda
+      weight: 1, // Borda fina
+      opacity: 0.5, // Opacidade da borda
+      fillColor: "rgba(61, 120, 101, 0.3)", // Cor mais forte, mantendo a transparência
+      fillOpacity: 0.6, // Menos transparência para um preenchimento mais forte
+    }}
+  />
+)}
+
 
         {/* Conteúdo adicional do mapa (marcadores, camadas, etc.) */}
         {children}
