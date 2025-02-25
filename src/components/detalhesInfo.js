@@ -23,7 +23,7 @@ const detalhesIntro = {
             onde o ser surgiu, apareceu, quando, quem fala sobre ele
             
             <li>✓ Documentação multimídia</li>
-          </ul>
+          </ul>g
         </div>
       </div>
 
