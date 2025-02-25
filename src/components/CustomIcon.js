@@ -10,7 +10,7 @@ const createIcon = (url, color, animate = false) =>
       </div>
     `,
     iconSize: [80, 120],
-    iconAnchor: [40, 120],
+    iconAnchor: [10, 120],
     popupAnchor: [1, -14],
   });
 

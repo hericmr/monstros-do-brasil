@@ -12,7 +12,7 @@ module.exports = {
           },
         },
         animation: {
-          breathing: "breathing 2s infinite ease-in-out",
+          breathing: "breathing 1s infinite ease-in-out",
         },
       },
     },
