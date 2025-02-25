@@ -1,13 +1,12 @@
 const detalhesIntro = {
-  titulo: "Cartografia digital dos monstros e seres fantásticos do Brasil",
+  titulo: "Cartografia digital dos seres fantásticos do Brasil",
   audioUrl: "/cartografiasocial/audio/intro.mp3",
   descricao_detalhada: `
     <div class="space-y-4 text-justify">
-      <p class="mb-4">Esta será uma <strong>cybercartografia </strong> (TAYLOR, 2003) que reune seres sobrenaturais e entidades mágicas e monstros do Brasil, integrando georreferenciamento digital com a sistematização e pesquisa de conhecimentos brasileirosil. </p>
+      <p class="mb-4">Este projeto mapeia e sistematiza a presença de seres sobrenaturais no Brasil, integrando georreferenciamento digital e análise documental. A proposta é reunir 173 entidades registradas na tradição oral e na literatura etnográfica, refletindo a interseção das matrizes culturais indígenas, africanas e europeias.</p>
 
-      <p class="mb-4">Começarei tentando catalogar 173 seres, que revelam a <strong>uma síntese de origens </strong> (indígenas, africana e europeias) que conformam um patrimônio mágico brasileiro. Essa multiplicidade fantástica está aberto</em> sujeita a ressignificações contemporâneas e mudanças.</p>
+      <p class="mb-4">O levantamento considera variações regionais, contextos históricos e transformações contemporâneas dos mitos, com uma abordagem interdisciplinar. A documentação inclui localização geográfica, registros históricos e referências multimídia.</p>
 
-      
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
         <div class="p-4 bg-gray-50 rounded-lg">
           <center>
