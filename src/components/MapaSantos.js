@@ -3,7 +3,7 @@ import slugify from "slugify";
 import MapaBase from "./MapaBase";
 import Marcadores from "./Marcadores";
 import Bairros from "./Bairros";
-import MenuCamadas from "./MenuCamadas";
+
 import PainelInformacoes from "./PainelInformacoes";
 import detalhesIntro from "./detalhesInfo"; 
 import "./MapaSantos.css";
@@ -78,20 +78,7 @@ const MapaSantos = ({ dataPoints }) => {
 
       {painelInfo && <PainelInformacoes painelInfo={painelInfo} closePainel={fecharPainel} />}
       
-      <MenuCamadas
-        estados={visibilidade}
-        acoes={{
-          toggleBairros:     () => toggleVisibilidade("bairros"),
-          toggleAssistencia: () => toggleVisibilidade("assistencia"),
-          toggleHistoricos:  () => toggleVisibilidade("historicos"),
-          toggleCulturais:   () => toggleVisibilidade("culturais"),
-          toggleComunidades: () => toggleVisibilidade("comunidades"),
-          toggleEducação:    () => toggleVisibilidade("educação"),
-          toggleReligiao:    () => toggleVisibilidade("religiao"),
-          toggleBairro:      () => toggleVisibilidade("bairro"),
-          
-        }}
-      />
+
     </div>
   );
 };

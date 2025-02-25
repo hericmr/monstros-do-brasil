@@ -45,6 +45,14 @@ const App = () => {
       e.titulo = e.titulo || "Título não disponível";  // Fallback para o título
       e.descricao = e.descricao || "Sem descrição";  // Fallback para a descrição
 
+      // Formatando descricao_detalhada para exibir corretamente no site
+      if (e.descricao_detalhada) {
+        e.descricao_detalhada = e.descricao_detalhada
+          .replace(/\n/g, "<br>") // Preservando quebras de linha
+          .replace(/\*\*(.*?)\*\*/g, "<b>$1</b>") // **Negrito**
+          .replace(/\*(.*?)\*/g, "<i>$1</i>"); // *Itálico*
+      }
+
       return e;
     });
   };
@@ -93,7 +101,7 @@ const App = () => {
       <Navbar />
       <main className="flex-grow">
         <MapaSantos dataPoints={dataPoints} />
-        <PainelInformacoes />
+        <PainelInformacoes dataPoints={dataPoints} />
       </main>
     </div>
   );
