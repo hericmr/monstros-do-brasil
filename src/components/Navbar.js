@@ -19,7 +19,7 @@ const Navbar = ({ onTitleClick = () => {} }) => {
               window.location.href = '/monstros-do-brasil?panel=sobre-o-site';
             }}
           >
-            Atlas do Invisível 
+            Atlas do Invisível -
           </h1>
           <h2 className="text-sm font-light tracking-wide">
              Criaturas fantásticas do Brasil

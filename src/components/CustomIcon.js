@@ -6,7 +6,12 @@ const createIcon = (url, color, animate = false) =>
     className: `group`,
     html: `
       <div class="relative ${animate ? 'animate-[breathing_3s_infinite]' : ''}">
-        <img src="${url}" class="w-[80px] h-[120px] drop-shadow-md">
+        <div class="relative overflow-hidden">
+          <img src="${url}" class="w-[80px] h-[80px] drop-shadow-md animate-breathing">
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-[40px] bg-transparent">
+          <!-- Aqui pode adicionar algo, como um detalhe do pé ou apenas deixá-lo fixo -->
+        </div>
       </div>
     `,
     iconSize: [80, 120],
@@ -16,7 +21,7 @@ const createIcon = (url, color, animate = false) =>
 
 // Criando ícones com animação para o monstro e estáticos para os outros
 export const blueIcon = createIcon(
-  "https://github.com/hericmr/monstros-do-brasil/blob/maihttps://github.com/hericmr/monstros-do-brasil/blob/main/public/fotos/ipupiara.png?raw=true", 
+  "https://github.com/hericmr/monstros-do-brasil/blob/main/public/fotos/ipupiara.png?raw=true", 
   "blue", 
   true // Ativando animação apenas para este ícone
 );
