@@ -29,21 +29,12 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-<<<<<<< HEAD
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "deploy": "gh-pages -d build"
   },
   "homepage": "https://hericmr.github.io/monstros-do-brasil",
-=======
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "homepage": "https://hericmr.github.io/gps",
->>>>>>> 1e6dafc1 (primeiro)
   "eslintConfig": {
     "extends": [
       "react-app",
