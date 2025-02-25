@@ -18,7 +18,7 @@ const LoadingScreen = () => (
       {/* Spinner Animado */}
       <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
       <div className="absolute inset-0 flex items-center justify-center">
-        <img src="/cartografiasocial/favicon.ico" alt="Ícone de carregamento" className="w-8 h-8" />
+        <img src="/monstros-do-brasil/favicon.ico" alt="Ícone de carregamento" className="w-8 h-8" />
       </div>
     </div>
     <p className="mt-4 text-lg font-semibold animate-pulse">Carregando dados...</p>
