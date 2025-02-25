@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/monstros-do-brasil/static/css/main.8c68aeeb.css",
-    "main.js": "/monstros-do-brasil/static/js/main.023527d9.js",
+    "main.css": "/monstros-do-brasil/static/css/main.2197c073.css",
+    "main.js": "/monstros-do-brasil/static/js/main.b419136a.js",
     "static/js/488.507c0173.chunk.js": "/monstros-do-brasil/static/js/488.507c0173.chunk.js",
     "index.html": "/monstros-do-brasil/index.html",
-    "main.8c68aeeb.css.map": "/monstros-do-brasil/static/css/main.8c68aeeb.css.map",
-    "main.023527d9.js.map": "/monstros-do-brasil/static/js/main.023527d9.js.map",
+    "main.2197c073.css.map": "/monstros-do-brasil/static/css/main.2197c073.css.map",
+    "main.b419136a.js.map": "/monstros-do-brasil/static/js/main.b419136a.js.map",
     "488.507c0173.chunk.js.map": "/monstros-do-brasil/static/js/488.507c0173.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c68aeeb.css",
-    "static/js/main.023527d9.js"
+    "static/css/main.2197c073.css",
+    "static/js/main.b419136a.js"
   ]
 }
