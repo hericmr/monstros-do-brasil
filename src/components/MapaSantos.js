@@ -14,23 +14,14 @@ const MapaSantos = ({ dataPoints }) => {
   const panel = urlParams.get('panel');
   var initialPanel = detalhesIntro;
   if(panel && panel !== '' && dataPoints && dataPoints.length > 0) {
-    const pointFound = dataPoints.find((item) => slugify(item.titulo).toLowerCase() === panel);
+    const pointFgit pull origin main --forceound = dataPoints.find((item) => slugify(item.titulo).toLowerCase() === panel);
     if(pointFound != null) {
       initialPanel = pointFound;
     }
   }
   
   const [geojsonData, setGeojsonData] = useState(null);
-  const [visibilidade, setVisibilidade] = useState({
-    bairros: false,
-    assistencia: true,
-    historicos: true,
-    culturais: true,
-    comunidades: true,
-    educação: true,
-    religiao: true,
-    bairro: true,
-  });
+
   const [painelInfo, setPainelInfo] = useState(initialPanel);
   
   useEffect(() => {
@@ -64,10 +55,7 @@ const MapaSantos = ({ dataPoints }) => {
     fillOpacity: 0.4,
   };
 
-  const toggleVisibilidade = (chave) => {
-    console.log(`Alterando visibilidade: ${chave}`);
-    setVisibilidade((prev) => ({ ...prev, [chave]: !prev[chave] }));
-  };
+
 
   return (
     <div className="relative h-screen">
