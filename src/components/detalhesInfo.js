@@ -3,9 +3,9 @@ const detalhesIntro = {
   audioUrl: "/cartografiasocial/audio/intro.mp3",
   descricao_detalhada: `
     <div class="space-y-4 text-justify">
-      <p class="mb-4">Esta é uma <strong>cybercartografia </strong> (TAYLOR, 2003) de seres sobrenaturais e entidades mágicas do Brasil, integrando georreferenciamento digital com levantamento de conhecimentos do Brasil. </p>
+      <p class="mb-4">Esta será uma <strong>cybercartografia </strong> (TAYLOR, 2003) que reune seres sobrenaturais e entidades mágicas e monstros do Brasil, integrando georreferenciamento digital com a sistematização e pesquisa de conhecimentos brasileirosil. </p>
 
-      <p class="mb-4">Começarei catalogando 173 seres, queconforme metodologia de Cascudo (2002), revelam a <strong>síntese cultural tríplice</strong> (indígena, africana e europeia) que conforma o patrimônio mitológico brasileiro. Essa polifonia mítica, conforme análise de Magnani (2002), configura-se como <em>texto cultural aberto</em> sujeito a ressignificações contemporâneas.</p>
+      <p class="mb-4">Começarei tentando catalogar 173 seres, que revelam a <strong>uma síntese de origens </strong> (indígenas, africana e europeias) que conformam um patrimônio mágico brasileiro. Essa multiplicidade fantástica está aberto</em> sujeita a ressignificações contemporâneas e mudanças.</p>
 
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
