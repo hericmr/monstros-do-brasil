@@ -39,18 +39,31 @@ const App = () => {
       }) : [];
 
       e.imagens = e.imagens && typeof e.imagens === 'string' ? e.imagens.split(",") : [];
-      
       e.audioUrl = e.audio && typeof e.audio === 'string' ? e.audio.split(",") : [];
-      
-      e.titulo = e.titulo || "Título não disponível";  // Fallback para o título
-      e.descricao = e.descricao || "Sem descrição";  // Fallback para a descrição
+      e.titulo = e.titulo || "Título não disponível";  
+      e.descricao = e.descricao || "Sem descrição";  
+
+      // Extraindo latitude e longitude da coluna 'localizacao'
+      if (e.localizacao && typeof e.localizacao === 'string') {
+        const [lat, lng] = e.localizacao.split(',').map(coord => parseFloat(coord.trim()));
+        if (!isNaN(lat) && !isNaN(lng)) {
+          e.latitude = lat;
+          e.longitude = lng;
+        } else {
+          e.latitude = null;
+          e.longitude = null;
+        }
+      } else {
+        e.latitude = null;
+        e.longitude = null;
+      }
 
       // Formatando descricao_detalhada para exibir corretamente no site
       if (e.descricao_detalhada) {
         e.descricao_detalhada = e.descricao_detalhada
-          .replace(/\n/g, "<br>") // Preservando quebras de linha
-          .replace(/\*\*(.*?)\*\*/g, "<b>$1</b>") // **Negrito**
-          .replace(/\*(.*?)\*/g, "<i>$1</i>"); // *Itálico*
+          .replace(/\n/g, "<br>") 
+          .replace(/\*\*(.*?)\*\*/g, "<b>$1</b>") 
+          .replace(/\*(.*?)\*/g, "<i>$1</i>"); 
       }
 
       return e;
